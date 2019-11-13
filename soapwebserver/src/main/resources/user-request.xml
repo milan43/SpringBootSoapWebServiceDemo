@@ -1,0 +1,12 @@
+<!--This request can be hit to check the soap request of server-->
+<soapenv:Envelope
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:us="http://webservice.com/schema">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Ram</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>
